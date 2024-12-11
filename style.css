@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+
+    padding: 5px;
+    background-image: url('https://gifdb.com/images/high/data-circuit-background-jigp4xxr9jq22ivb.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header nav {
+    margin-top: 10px;
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #444;
+}
+section {
+    margin-bottom: 30px;
+}
+.intro img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
